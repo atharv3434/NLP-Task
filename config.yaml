@@ -1,0 +1,23 @@
+# Configuration for the sentiment analysis project.
+
+data_path: data/reviews.csv
+model_path: models/sentiment_model.joblib
+metrics_report_path: output/metrics_report.md
+figures_dir: output/figures
+
+text_col: text
+label_col: label
+labels: [negative, neutral, positive]
+
+test_size: 0.2
+random_state: 42
+
+# TF-IDF settings
+max_features: 3000
+ngram_range: [1, 2]
+
+# Which ML classifiers to train and compare. Both are trained; whichever
+# scores higher on macro F1 is saved as the final model.
+models:
+  - naive_bayes
+  - logistic_regression
