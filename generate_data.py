@@ -1,4 +1,5 @@
-"""Generate a synthetic labeled sentiment dataset (positive / negative /
+"""
+Generate a synthetic labeled sentiment dataset (positive / negative /
 neutral) spanning movie, product, and restaurant reviews.
 
 This project ships with a pre-generated dataset already in place
@@ -12,8 +13,7 @@ case for bag-of-words models — "not great" contains the very positive word
 "great" — so including it lets the evaluation actually show whether a
 model learned something beyond individual word polarity.
 
-Usage:
-    python data/generate_data.py [--n-per-class 800] [--seed 42]
+Usage:python data/generate_data.py [--n-per-class 800] [--seed 42]
 """
 
 import argparse
