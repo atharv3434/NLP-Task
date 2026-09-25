@@ -1,4 +1,5 @@
-"""Train and evaluate ML sentiment classifiers, then save the
+"""
+Train and evaluate ML sentiment classifiers, then save the
 best-performing model.
 
 Usage:
@@ -8,6 +9,7 @@ Trains Multinomial Naive Bayes and Logistic Regression (both on TF-IDF
 features, bundled into a single scikit-learn Pipeline per model),
 evaluates both on a held-out stratified test split, and saves the
 higher-macro-F1 model.
+
 """
 
 import argparse
