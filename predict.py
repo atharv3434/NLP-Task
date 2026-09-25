@@ -1,4 +1,5 @@
-"""Predict sentiment for new text using the trained ML model.
+"""
+Predict sentiment for new text using the trained ML model.
 
 Usage:
     python src/predict.py --text "This was a fantastic experience!"
