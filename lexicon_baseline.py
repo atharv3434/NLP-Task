@@ -1,4 +1,5 @@
-"""A classical, rule-based sentiment baseline: a hand-crafted word lexicon
+"""
+A classical, rule-based sentiment baseline: a hand-crafted word lexicon
 plus simple negation handling, in the spirit of lexicon-based sentiment
 tools like VADER (Hutto & Gilberto, 2014) — no training data required.
 
