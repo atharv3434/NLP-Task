@@ -1,4 +1,5 @@
-"""Compare the classical lexicon baseline against the trained ML model —
+"""
+Compare the classical lexicon baseline against the trained ML model —
 on both the same-distribution templated test data and a genuinely
 challenging, hand-written out-of-distribution test set.
 
